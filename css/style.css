@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;800&family=Montserrat:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.container-menu{
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: brown; */
+}
+.container-menu ul{
+    display: flex;
+    flex-direction: row;
+}
+.container-menu a{
+    text-decoration: none;
+    /* background-color: aqua; */
+    padding: 10px 20px;
+}
+.container-menu li {
+    list-style: none;
+}
+
+.container{
+    /* background-color: aqua; */
+    display: flex;
+    
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container2{
+    flex-direction: column
+}
+.center{
+    justify-content: center;
+}
+
+.articulospasteles{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 100%;
+}
+.articulospasteles div {
+    padding:100px 150px;
+    box-shadow: 2px 2px 5px #999;
+}
+.articulospasteles div:nth-child(1){
+    background-color: #b3e4f9;
+}
+.articulospasteles div:nth-child(2){
+    background-color: #f7a9bf;
+}
+.articulospasteles div:nth-child(3){
+    background-color: #fbdda2;
+}
+.articulospasteles div:nth-child(4){
+    background-color: #9ee0a2;
+}
+ .articulospasteles p > a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    font-size: 1.6rem;
+ }
+
+ .articulospasteles p > a:hover{
+     background-color: aliceblue;
+ }
+
+ /* Container form */
+.container form{
+    font-size: 1.6rem;
+    width: 360px;
+}
+.container label{
+    padding-bottom: 5px;
+}
+.container input{
+    background-color: #F7F7F7;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    height: 30px;
+    padding: 6px;
+    margin-bottom: 12px;
+}
+.container select{
+    margin-bottom: 12px;
+    width: 250px;
+    border: 1px solid #C7C7C7;
+}
+ .container form{
+    
+     display: flex;
+    flex-direction: column;
+ }
+
+ .enviar{
+     background: #ACD9B2;
+     border-radius: 80px;
+     /* color: white; */
+     cursor: pointer;
+     font-weight: bold;
+     height: 50px;
+
+ }
+
+ @media (max-width:768px){
+    .articulospasteles div {
+        padding: 50px 50px;
+    }
+ }

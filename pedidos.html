@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="container-menu"><h1>Pasteleria</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                 <li><a href="">Pedido</a></li>
+             </ul>
+        </nav>
+    </header>
+    <section class="container center">
+        <form action="#">
+            <h1>Pedido</h1>
+            <p>Ingredientes para preparar su pedidos. </p><br>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="Nombre" placeholder="Nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" placeholder="Apellido">
+            <label for="telefono">Telefono</label>
+            <input type="number" name="telefono" placeholder="Telefono">
+            <label for="correo">Correo</label>
+            <input type="email" placeholder="correo">
+            <label for="tipo">Producto</label>
+            <select name="tipo">
+                <option>Pastel</option>
+                <option value="">Galletas</option>
+                <option value="">Dulce</option>
+            </select>
+            <label for="">Tipo</label>
+            <select>
+                <option value="">Tres leches - 380</option>
+                <option value="">Pastel con queso - 270</option>
+                <option value="">Patel Americano - 390</option>
+                <option value="">Patel moka - 390 </option>
+                <option value="">Patel Capuchino - 420</option>
+            </select>
+            <label for="extra" >Agregra ingrediente extra</label>
+            <input type="text" id="extra" placeholder="Extra">
+            <input type="button" class="enviar"value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
